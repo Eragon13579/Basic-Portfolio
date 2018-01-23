@@ -1,45 +1,128 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Kavivanar', cursive;
 }
-#Header {
+
+h2 {
+	clear: both;
 	color: #4aaaa5;
+}
+
+h3{
+	color: #4aaaa5;
+}
+
+h6 {
+	border-style: solid;
+	border-bottom-width: 100%;
+	padding: 25px;
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+}
+
+input[type=text], #Name {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=text], #Email {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=text], #Message {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#Header {
 	display: inline;
-	width: 250px;
+	float: left;
+	color: #4aaaa5;
+	width: 100px;
 	height: 100px;
-	border-style: solid black 2px;
-	padding left, right, top, bottom: 10px;
-	background-color: #ffffff;
-	margin-left: 50px;
+	margin-left: 200px;
 }
-#Dragon {
-	align: left;
-}
+
 #Image {
 	float: left;
 }
 
-#Text {
-	float: left;
-	width: 200px;
-}
 
 #Entire_Content {
 	width: 960px;
+	margin-left: 200px;
 }
 
 #Links {
 	float: right;
-	margin-right: 250px;
-	margin-top: 20px;
+	display: inline;
+	margin-right: 420px;
+	margin-top: 50px;
+	color: #777777;
 }
 #Main_Content {
 	width: 650px;
+	display: inline;
 	float: left;
-	margin-left: 50px;
+	clear: left;
+	border: solid;
+	color: #777777;
 }
 #Connect_Links  {
 	width: 270px;
-	float: left;
+	display: inline;
+	float: right;
+	border: solid;
+	color: #777777;
+	text-align: center;
+}
 
+.Images {
+	margin: 10px;
+}
+
+#Skyrim {
+	float: left;
+	margin-left: 100px;
+}
+
+#Youtube {
+	float: right;
+	margin-right: 100px;
+}
+
+#Reading {
+	float: left;
+	clear: left;
+	margin-left: 100px;
+}
+
+#Basketball {
+	float: right;
+	clear: right;
+	margin-right: 100px;
+}
+
+#Discord {
+	float: left;
+	clear: left;
+	margin-left: 100px;
+}
+
+#Psych {
+	float: right;
+	clear: right;
+	margin-right: 100px;
 }
