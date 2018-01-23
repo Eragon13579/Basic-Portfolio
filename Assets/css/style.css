@@ -5,10 +5,12 @@
 h2 {
 	clear: both;
 	color: #4aaaa5;
+	font-size: 20px;
 }
 
 h3{
 	color: #4aaaa5;
+	font-size: 20px;
 }
 
 h6 {
@@ -47,6 +49,7 @@ input[type=text], #Message {
 }
 
 #Header {
+	font-size: 30px;
 	display: inline;
 	float: left;
 	color: #4aaaa5;
